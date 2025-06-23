@@ -8,13 +8,15 @@ FlyGlobe is a modern travel booking interface built using **React.js** and **Vit
 
 | Home Page | Flight Results |
 |-----------|----------------|
-| ![Home Screenshot](./public/screenshots/home.png) | ![Results Screenshot](./public/screenshots/results.png) |
+| ![Home Screenshot]![image](https://github.com/user-attachments/assets/442b9b96-ef97-493f-a4fd-db3b91e8376b)
+ | ![Results Screenshot]![image](https://github.com/user-attachments/assets/b9e93098-4a48-482f-97a7-ebcd3f82dbee)
+ |
 
 ---
 
 ## 🚀 Live Demo
 
-🌐 [Click here to view the hosted site on Vercel](https://your-vercel-deploy-url.vercel.app)
+🌐 [Click here to view the hosted site on Vercel]([https://your-vercel-deploy-url.vercel.app](https://fly-globe-five.vercel.app/))
 
 ---
 
