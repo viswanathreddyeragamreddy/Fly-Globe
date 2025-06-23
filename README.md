@@ -16,7 +16,7 @@ FlyGlobe is a modern travel booking interface built using **React.js** and **Vit
 
 ## 🚀 Live Demo
 
-🌐 [Click here to view the hosted site on Vercel]([https://your-vercel-deploy-url.vercel.app](https://fly-globe-five.vercel.app/))
+🌐 https://fly-globe-five.vercel.app/
 
 ---
 
@@ -55,7 +55,6 @@ flyglobe/
 
 ### Steps
 
-```bash
 # 1. Clone the repository
 git clone https://github.com/your-username/flyglobe.git
 cd flyglobe
