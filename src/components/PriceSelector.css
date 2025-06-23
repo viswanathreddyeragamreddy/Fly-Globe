@@ -1,0 +1,54 @@
+.search-container {
+  display: flex;
+  gap: 0.5rem;
+  margin: 1rem 0;
+}
+
+.search-input {
+  padding: 0.5rem;
+  flex: 1;
+  border-radius: 4px;
+  border: 1px solid #ccc;
+}
+
+.search-button {
+  padding: 0.5rem 1rem;
+  background-color: #007bff;
+  border: none;
+  color: white;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.price-container {
+  display: flex;
+  gap: 1rem;
+  margin-top: 1rem;
+}
+
+.plan-box {
+  padding: 1rem;
+  border: 2px solid #ddd;
+  border-radius: 8px;
+  background: #f9f9f9;
+  position: relative;
+  width: 100px;
+  text-align: center;
+}
+
+.plan-box.recommended {
+  border-color: #007bff;
+  background: #e9f5ff;
+}
+
+.recommended-label {
+  position: absolute;
+  top: -10px;
+  left: 50%;
+  transform: translateX(-50%);
+  background: #007bff;
+  color: white;
+  padding: 2px 6px;
+  border-radius: 4px;
+  font-size: 0.75rem;
+}

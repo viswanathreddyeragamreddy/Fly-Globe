@@ -1,0 +1,77 @@
+.destination-section {
+  background: #000;
+  padding: 40px;
+  color: white;
+}
+
+.filter-bar {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin-bottom: 30px;
+}
+
+.filter-bar button {
+  background: #0d1737;
+  color: white;
+  border: none;
+  padding: 8px 16px;
+  border-radius: 10px;
+  cursor: pointer;
+  font-weight: 500;
+}
+
+.filter-bar button.active {
+  background: #1a2b5c;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 20px;
+}
+
+.card {
+  position: relative;
+  overflow: hidden;
+  border-radius: 16px;
+}
+
+.card img {
+  width: 100%;
+  height: 300px;
+  object-fit: cover;
+  border-radius: 16px;
+}
+
+.card-info {
+  position: absolute;
+  bottom: 15px;
+  left: 15px;
+  color: white;
+}
+
+.card-info .title {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.card-info .country {
+  display: inline-block;
+  background: white;
+  color: black;
+  padding: 2px 8px;
+  margin-top: 4px;
+  font-size: 12px;
+  border-radius: 4px;
+}
+
+.card-info .price {
+  font-size: 18px;
+  margin-top: 10px;
+}
+
+.card-info .note {
+  font-size: 10px;
+  opacity: 0.8;
+}

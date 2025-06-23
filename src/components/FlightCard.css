@@ -1,0 +1,44 @@
+.flight-card {
+  background: white;
+  border-radius: 16px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.06);
+  padding: 1.5rem 2rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 1.5rem;
+  transition: transform 0.2s ease;
+}
+
+.flight-card:hover {
+  transform: translateY(-4px);
+}
+
+.flight-info h3 {
+  margin: 0;
+  font-size: 1.1rem;
+}
+
+.flight-info p {
+  margin: 4px 0;
+  color: #555;
+}
+
+.flight-price {
+  text-align: right;
+}
+
+.flight-price h4 {
+  margin: 0;
+  font-size: 1.2rem;
+}
+
+.flight-price button {
+  margin-top: 0.5rem;
+  padding: 0.5rem 1rem;
+  background-color: black;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+}

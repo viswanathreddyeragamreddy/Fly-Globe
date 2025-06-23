@@ -1,0 +1,80 @@
+.footer {
+  background-color: #0a122b;
+  color: white;
+  padding: 3rem 4rem;
+  font-family: 'Inter', sans-serif;
+}
+
+.topSection {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 2rem;
+}
+
+.branding {
+  flex: 1;
+  min-width: 200px;
+}
+
+.branding h2 {
+  font-size: 1.6rem;
+  margin-bottom: 0.8rem;
+}
+
+.branding p {
+  font-size: 1rem;
+  line-height: 1.5;
+  max-width: 300px;
+}
+
+.links {
+  display: flex;
+  flex: 2;
+  justify-content: space-between;
+  min-width: 300px;
+}
+
+.links h4 {
+  font-size: 1.1rem;
+  margin-bottom: 0.6rem;
+}
+
+.links ul {
+  list-style: none;
+  padding: 0;
+  line-height: 2;
+}
+
+.contact {
+  flex: 1;
+  min-width: 200px;
+}
+
+.contact h4 {
+  margin-top: 1rem;
+  margin-bottom: 0.5rem;
+}
+
+.contact p {
+  margin: 0.3rem 0;
+}
+
+.socialIcons {
+  display: flex;
+  gap: 1rem;
+  margin-top: 0.8rem;
+  font-size: 1.2rem;
+}
+
+hr {
+  margin-top: 2rem;
+  border-color: rgba(255, 255, 255, 0.2);
+}
+
+.copyright {
+  text-align: center;
+  margin-top: 1rem;
+  font-size: 0.9rem;
+  color: #ccc;
+}
